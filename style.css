@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+  /* opacity: 0.7; */
+}
+
+.clarusway-background,
+.clarusway-background2,
+.clarusway-background3,
+.clarusway-background4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /*resim daha düzgün gözükmesi icin...*/
+  display: flex;
+  align-items: center; /*yukardan asagıya ortala*/
+  justify-content: center; /*sag dan sola ortala*/
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+.clarusway-background {
+  background-image: url(./img/bg.jpg);
+  height: 100vh;
+}
+.clarusway-background2 {
+  background-image: url(./img/bg2.jpg);
+  height: 80vh;
+}
+.clarusway-background3 {
+  background-image: url(./img/bg3.jpg);
+  height: 80vh;
+}
+.clarusway-background4 {
+  background-image: url(./img/bg4.jpg);
+  height: 80vh;
+}
+
+span {
+  background-color: black;
+  color: white;
+  padding: 32px;
+  font-size: 48px;
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  outline: 8px inset purple; /*inset 3d görüntü ???*/
+  outline-offset: 12px; /*boslugu belirtik.*/
+  letter-spacing: 8px;
+}
+
+.section-white {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+
+h1 {
+  padding-top: 70px;
+}
+
+p {
+  padding: 30px 80px 50px;
+  line-height: 2;
+}
+
+img {
+  width: 30%;
+}
+
+.section-black {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+/* ortadaki baslıklar için yapılabilir.
+.span-small {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 48px;
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  outline: 8px inset purple; /*inset 3d görüntü ???
+  outline-offset: 4px;
+  letter-spacing: 8px;
+} */
